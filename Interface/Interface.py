@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import ttk
-from Stuff.NihongoTranslator.Translate_Class.Translate import Translate
-from Stuff.NihongoTranslator.Translate_Class.Errors import SameLanguageError
+from Translate import Translate
+from Errors import SameLanguageError
 import Music
 
 switch = ""
@@ -13,6 +13,7 @@ convert_lang = {
     "Filipino": "Fil",
     "Japanese": "Jap"
 }
+# heh
 
 convert_lang_to = {
     "English": Translate.jap,
